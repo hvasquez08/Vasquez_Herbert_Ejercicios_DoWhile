@@ -199,6 +199,7 @@ do
 Console.WriteLine($"la cantidad de numeros pares fueron:{contador}");
 */
 //ejercicio18
+/*
 int opcion = 0;
 do
 {
@@ -224,3 +225,16 @@ do
     }
 } while (opcion != 0);
 Console.WriteLine("adiosx2");
+*/
+//ejercio19
+int numero = 0;
+int contador = 1;
+Console.WriteLine("Ingrese un numero");
+numero = int.Parse(Console.ReadLine());
+do
+{
+    
+    Console.WriteLine($"{contador}x{numero}={contador*numero}");
+    contador++;
+
+} while (contador <=10);
