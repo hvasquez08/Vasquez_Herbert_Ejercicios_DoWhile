@@ -159,7 +159,7 @@ do
 Console.WriteLine($"el numero mayor es:{mayor}");
 */
 //ejercicio15
-
+/*
 int mayor = 0;
 int numero = 0;
 do
@@ -170,3 +170,14 @@ do
 
 } while (numero <= 0);
 Console.WriteLine("Ingreso un numero positivo xd");
+*/
+//ejercicio16
+string clave = "";
+do
+{
+    Console.WriteLine("Ingrese la contraseña");
+    clave =(Console.ReadLine());
+
+
+} while (clave != "123");
+Console.WriteLine("contraseña correcta");
