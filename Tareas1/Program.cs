@@ -227,6 +227,7 @@ do
 Console.WriteLine("adiosx2");
 */
 //ejercio19
+/*
 int numero = 0;
 int contador = 1;
 Console.WriteLine("Ingrese un numero");
@@ -238,3 +239,18 @@ do
     contador++;
 
 } while (contador <=10);
+*/
+//ejercicio20
+int numero = 0;
+int suma = 0;
+int contador = 0;
+do
+{
+    Console.WriteLine("Ingrese un numero");
+    numero = int.Parse(Console.ReadLine());
+    suma += numero;
+    contador++;
+}while (numero != 0);
+Console.WriteLine($"Numero ingresados{contador}");
+Console.WriteLine($"La suma de los numero{suma}");
+Console.WriteLine($"El promedio final de los numeros {suma/contador}");
