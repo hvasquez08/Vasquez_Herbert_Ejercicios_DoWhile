@@ -68,10 +68,23 @@ do
 Console.WriteLine($"la suma es {sumad}");
 */
 //ejercicio8
-
+/*
 int numero = 1;
 do
 {
     Console.WriteLine($"5x{numero}={numero*5}");
     numero++;
 } while (numero <= 10);
+*/
+//ejercio9
+
+int numero = 1;
+do
+{ 
+    if (numero % 2== 0)
+    Console.WriteLine($"el numero es par {numero}");
+    else
+        Console.WriteLine($"el numero es impar {numero }");
+    numero++;
+} while (numero <= 20);
+
