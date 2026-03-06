@@ -55,7 +55,7 @@ do
 } while (numero <= 10);
 */
 //ejercicio7
-
+/*
 int numero = 1;
 int sumad =0;
 do
@@ -66,3 +66,12 @@ do
     
 } while (numero <= 10);
 Console.WriteLine($"la suma es {sumad}");
+*/
+//ejercicio8
+
+int numero = 1;
+do
+{
+    Console.WriteLine($"5x{numero}={numero*5}");
+    numero++;
+} while (numero <= 10);
