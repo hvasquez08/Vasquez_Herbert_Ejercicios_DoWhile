@@ -89,7 +89,7 @@ do
 } while (numero <= 20);
 */
 //ejercicio10
-
+/*
 int numero = 1;
 do
 {
@@ -97,3 +97,18 @@ do
     numero+=1;
 } while (numero <= 50);
 Console.WriteLine($"total de numero {numero-1}");
+*/
+//ejercicio11
+
+int suma = 0;
+int numero = 0;
+int i = 1;
+do
+{
+    i++;
+    Console.WriteLine("Ingrese numero");
+    numero = int.Parse(Console.ReadLine());
+    suma += numero;
+  
+}while (i <=5);
+Console.WriteLine($"suma total es:{suma}");
