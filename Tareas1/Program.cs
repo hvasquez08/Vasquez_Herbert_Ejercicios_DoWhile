@@ -128,7 +128,7 @@ do
 Console.WriteLine($"suma total es:{suma}");
 */
 //ejercicio13
-
+/*
 int suma = 0;
 int numero = 2;
 int i = 0;
@@ -141,3 +141,18 @@ do
 
 } while (numero != 0);
 Console.WriteLine($"suma total es:{suma}, los numeros ingresados fueron {i}");
+*/
+//ejercicio14
+int mayor = 0;
+int numero = 0;
+do
+{
+    Console.WriteLine("Ingrese numero");
+    numero = int.Parse(Console.ReadLine());
+    if (numero>mayor)
+    {
+        mayor = numero;
+    }
+    
+} while (numero != 0);
+Console.WriteLine($"el numero mayor es:{mayor}");
