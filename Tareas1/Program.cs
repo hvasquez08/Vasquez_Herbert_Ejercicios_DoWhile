@@ -172,6 +172,7 @@ do
 Console.WriteLine("Ingreso un numero positivo xd");
 */
 //ejercicio16
+/*
 string clave = "";
 do
 {
@@ -181,3 +182,18 @@ do
 
 } while (clave != "123");
 Console.WriteLine("contraseña correcta");
+*/
+//ejercicio17
+
+int numero = 0;
+int contador = 0;
+do
+{
+    Console.WriteLine("Ingrese numero");
+    numero = int.Parse(Console.ReadLine());
+    if (numero  %2 == 0 && numero != 0)
+    {
+        contador++; 
+    }
+}while (numero != 0);
+Console.WriteLine($"la cantidad de numeros pares fueron:{contador}");
