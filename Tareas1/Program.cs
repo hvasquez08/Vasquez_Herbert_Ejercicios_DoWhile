@@ -184,7 +184,7 @@ do
 Console.WriteLine("contraseña correcta");
 */
 //ejercicio17
-
+/*
 int numero = 0;
 int contador = 0;
 do
@@ -197,3 +197,30 @@ do
     }
 }while (numero != 0);
 Console.WriteLine($"la cantidad de numeros pares fueron:{contador}");
+*/
+//ejercicio18
+int opcion = 0;
+do
+{
+    Console.WriteLine("Ingrese su opcion ");
+    Console.WriteLine("1 Mostrar saludo\r\n2 Mostrar número aleatorio\r\n0 Salir\r\n\r\n");
+    Console.Clear();    opcion = int.Parse(Console.ReadLine());
+
+    switch (opcion)
+    {
+        case 1:
+            
+            Console.WriteLine("hola");
+            break;
+        case 2:
+            Console.WriteLine("3");
+            break;
+        case 0:
+            Console.WriteLine("adios");
+            break;
+        default:
+            Console.WriteLine("error");
+            break;
+    }
+} while (opcion != 0);
+Console.WriteLine("adiosx2");
