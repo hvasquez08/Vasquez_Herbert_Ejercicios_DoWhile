@@ -77,7 +77,7 @@ do
 } while (numero <= 10);
 */
 //ejercio9
-
+/*
 int numero = 1;
 do
 { 
@@ -87,4 +87,13 @@ do
         Console.WriteLine($"el numero es impar {numero }");
     numero++;
 } while (numero <= 20);
+*/
+//ejercicio10
 
+int numero = 1;
+do
+{
+    Console.WriteLine(numero);
+    numero+=1;
+} while (numero <= 50);
+Console.WriteLine($"total de numero {numero-1}");
