@@ -114,7 +114,7 @@ do
 Console.WriteLine($"suma total es:{suma}");
 */
 //ejercicio12
-
+/*
 int suma = 0;
 int numero = 2;
 int i = 1;
@@ -126,3 +126,18 @@ do
 
 } while (numero != 0);
 Console.WriteLine($"suma total es:{suma}");
+*/
+//ejercicio13
+
+int suma = 0;
+int numero = 2;
+int i = 0;
+do
+{
+    Console.WriteLine("Ingrese numero");
+    numero = int.Parse(Console.ReadLine());
+    suma += numero;
+    i++;
+
+} while (numero != 0);
+Console.WriteLine($"suma total es:{suma}, los numeros ingresados fueron {i}");
