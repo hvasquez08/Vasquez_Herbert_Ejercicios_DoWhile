@@ -45,7 +45,7 @@ do
 } while (numero <= 15);
 */
 //ejercicio6
-
+/*
 int numero = 1;
 do
 {
@@ -53,3 +53,16 @@ do
     numero++;
    
 } while (numero <= 10);
+*/
+//ejercicio7
+
+int numero = 1;
+int sumad =0;
+do
+{
+    Console.WriteLine(numero);
+    sumad += numero;
+    numero++;
+    
+} while (numero <= 10);
+Console.WriteLine($"la suma es {sumad}");
