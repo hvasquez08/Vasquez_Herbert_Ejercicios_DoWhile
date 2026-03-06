@@ -36,10 +36,20 @@ do
 } while (numero <= 20);
 */
 //ejercicio5
-
+/*
 int numero = 1;
 do
 {
     Console.WriteLine(numero);
     numero += 2;
 } while (numero <= 15);
+*/
+//ejercicio6
+
+int numero = 1;
+do
+{
+    Console.WriteLine($"{numero} el cuadrado es:{numero * numero}");
+    numero++;
+   
+} while (numero <= 10);
