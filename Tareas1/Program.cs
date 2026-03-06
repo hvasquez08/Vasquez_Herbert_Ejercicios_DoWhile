@@ -27,10 +27,19 @@ do
 } while (numero >= 1);
 */
 //4 ejercicio 
-
+/*
 int numero = 2;
 do
 {
     Console.WriteLine(numero);
     numero+= 2;
 } while (numero <= 20);
+*/
+//ejercicio5
+
+int numero = 1;
+do
+{
+    Console.WriteLine(numero);
+    numero += 2;
+} while (numero <= 15);
