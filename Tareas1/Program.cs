@@ -143,6 +143,7 @@ do
 Console.WriteLine($"suma total es:{suma}, los numeros ingresados fueron {i}");
 */
 //ejercicio14
+/*
 int mayor = 0;
 int numero = 0;
 do
@@ -156,3 +157,16 @@ do
     
 } while (numero != 0);
 Console.WriteLine($"el numero mayor es:{mayor}");
+*/
+//ejercicio15
+
+int mayor = 0;
+int numero = 0;
+do
+{
+    Console.WriteLine("Ingrese numero postivo");
+    numero = int.Parse(Console.ReadLine());
+
+
+} while (numero <= 0);
+Console.WriteLine("Ingreso un numero positivo xd");
