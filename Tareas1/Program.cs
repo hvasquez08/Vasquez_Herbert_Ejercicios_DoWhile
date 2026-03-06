@@ -254,3 +254,5 @@ do
 Console.WriteLine($"Numero ingresados{contador}");
 Console.WriteLine($"La suma de los numero{suma}");
 Console.WriteLine($"El promedio final de los numeros {suma/contador}");
+
+//me dio pereza hacer muchos archivos y mejor los puse como comentario xd
